@@ -1,0 +1,9 @@
+G-PhoCS control_set1_R_AP -n 7 > log_control_set1_R_AP 2>&1 &
+G-PhoCS control_set1_RUSA -n 7 > log_control_set1_RUSA 2>&1 &
+G-PhoCS control_set1_SUM_TIG -n 7 > log_control_set1_SUM_TIG 2>&1 &
+G-PhoCS control_set2_CJ_AP -n 7 > log_control_set2_CJ_AP 2>&1 &
+G-PhoCS control_set2_COR_JAX -n 7 > log_control_set2_COR_JAX 2>&1 &
+G-PhoCS control_set2_PTV_AMO_AMUR -n 7 > log_control_set2_PTV_AMO_AMUR 2>&1 &
+G-PhoCS control_set2_R_AP -n 7 > log_control_set2_R_AP 2>&1 &
+G-PhoCS control_set2_RUSA -n 7 > log_control_set2_RUSA 2>&1 &
+G-PhoCS control_set2_SUM_TIG -n 7 > log_control_set2_SUM_TIG 2>&1 &

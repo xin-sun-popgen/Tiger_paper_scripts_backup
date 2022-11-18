@@ -1,0 +1,19 @@
+#!/bin/bash
+
+samtools merge A3_merge.bam A3_1st_wg_f_sort_rmdup_se.bam A3_2nd_wg_f_sort_rmdup_se.bam &
+samtools merge AMO3305_merge.bam AMO3305_2nd_wg_f_sort_rmdup_se.bam AMO3305_1st_wg_f_sort_rmdup_se.bam &
+samtools merge AMO3306_merge.bam AMO3306_1st_wg_f_sort_rmdup_se.bam &
+samtools merge AMO3307_merge.bam AMO3307_1st_1_wg_f_sort_rmdup_se.bam AMO3307_1st_2_wg_f_sort_rmdup_se.bam AMO3307_H_se_wg_f_sort_rmdup.bam AMO3307_L_se_wg_f_sort_rmdup.bam &
+samtools merge AMO3308_merge.bam AMO3308_2nd_wg_f_sort_rmdup_se.bam AMO3308_1st_wg_f_sort_rmdup_se.bam &
+samtools merge AMO3311_merge.bam AMO3311_2nd_wg_f_sort_rmdup_se.bam AMO3311_1st_wg_f_sort_rmdup_se.bam AMO3311_H_se_wg_f_sort_rmdup.bam AMO3311_L_se_wg_f_sort_rmdup.bam &
+samtools merge HNSD_merge.bam HSND_1st_wg_f_sort_rmdup_se.bam HNSD_2nd_wg_f_sort_rmdup_se.bam HNSD_1st_ss_wg_f_sort_rmdup_se.bam &
+samtools merge HPS_merge.bam HPS_1st_wg_f_sort_rmdup_se.bam HPS_2nd_wg_f_sort_rmdup_se.bam &
+samtools merge M2_merge.bam M2_1st_wg_f_sort_rmdup_se.bam M2_2nd_1_wg_f_sort_rmdup_se.bam M2_2nd_2_wg_f_sort_rmdup_se.bam &
+samtools merge Y15_merge.bam Y15_hair_PCI_BEMT_wg_f_sort_rmdup_se.bam Y15_skin_PCI_BEST_wg_f_sort_rmdup_se.bam &
+samtools merge Y3_merge.bam Y3_skin_PCI_BEMT_wg_f_sort_rmdup_se.bam Y3_skin_PCI_BEST_wg_f_sort_rmdup_se.bam &
+samtools merge NGH1_merge.bam NGH1_skin_PCI_BEMT_wg_f_sort_rmdup_se.bam NGH1_skin_PCI_BEST_wg_f_sort_rmdup_se.bam &
+samtools merge PtiP121_merge.bam PtiP121_1st_wg_f_sort_rmdup_se.bam Ptip121_2nd_bone_wg_f_sort_rmdup_se.bam Ptip121_2nd_skin_wg_f_sort_rmdup_se.bam Ptip121_2nd_tooth_wg_f_sort_rmdup_se.bam &
+samtools merge Y14_merge.bam Y14_2nd_1_wg_f_sort_rmdup_se.bam Y14_2nd_2_wg_f_sort_rmdup_se.bam Y14_1st_wg_f_sort_rmdup_se.bam &
+samtools merge Y7_merge.bam Y7_2nd_wg_f_sort_rmdup_se.bam Y7_1st_wg_f_sort_rmdup_se.bam Y7_3rd_wg_f_sort_rmdup_se.bam &
+samtools merge NGH2_merge.bam NGH2_1st_wg_f_sort_rmdup_se.bam NGH2_2nd_wg_f_sort_rmdup_se.bam &
+
